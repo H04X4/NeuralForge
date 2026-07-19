@@ -1,0 +1,13 @@
+[package]
+name = "astra-planner"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "NeuralForge astra-planner crate"
+
+
+[dependencies]
+astra-core = { path = "../astra-core" }
+astra-formats = { path = "../astra-formats" }
+serde.workspace = true
+thiserror.workspace = true

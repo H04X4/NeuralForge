@@ -1,0 +1,15 @@
+[package]
+name = "astra-qwen"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "NeuralForge astra-qwen crate"
+
+
+[dependencies]
+astra-core = { path = "../astra-core" }
+astra-kernels = { path = "../astra-kernels" }
+astra-formats = { path = "../astra-formats" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true

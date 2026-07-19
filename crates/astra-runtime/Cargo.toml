@@ -1,0 +1,17 @@
+[package]
+name = "astra-runtime"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "NeuralForge astra-runtime crate"
+
+
+[dependencies]
+astra-core = { path = "../astra-core" }
+astra-kernels = { path = "../astra-kernels" }
+astra-qwen = { path = "../astra-qwen" }
+astra-tokenizers = { path = "../astra-tokenizers" }
+astra-formats = { path = "../astra-formats" }
+rand = "0.8"
+serde.workspace = true
+thiserror.workspace = true
