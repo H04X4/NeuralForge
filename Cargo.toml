@@ -18,7 +18,7 @@ members = [
 version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
-repository = "https://github.com/NeuralForge/neural-forge"
+repository = "https://github.com/H04X4/NeuralForge"
 description = "NeuralForge — forge intelligence: universal local AI runtime for Qwen3 models"
 
 [workspace.dependencies]
